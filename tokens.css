@@ -1,0 +1,50 @@
+/* ============================================================
+   Tokens de design – cores e tipografia derivadas da logo
+   (preto puro + ouro em degradê + prata do "next")
+   ============================================================ */
+:root {
+  /* base */
+  --preto: #000000;
+  --superficie: #141416;
+  --superficie-2: #1c1c1f;
+  --linha: #2a2a2e;
+  --linha-clara: #cfcfd4;
+
+  /* claros (seções prata) */
+  --prata-claro: #ebebee;
+  --prata: #b9bac0;
+  --branco: #ffffff;
+
+  /* texto */
+  --texto-claro: #f2f2f3;
+  --texto-claro-2: #d9d9dc;
+  --texto-mudo: #a6a7ad;
+  --texto-escuro: #101012;
+  --texto-escuro-2: #46464c;
+
+  /* ouro da logo */
+  --ouro-claro: #ffe772;
+  --ouro: #ffb81c;
+  --ouro-fundo: #ffa005;
+  --ouro-grad: linear-gradient(135deg, #ffe772 0%, #ffc92d 45%, #ffa005 100%);
+  --prata-grad: linear-gradient(180deg, #ffffff 0%, #d4d5d9 55%, #8e8f94 100%);
+
+  /* estados */
+  --erro: #ff7a66;
+
+  /* tipografia */
+  --font-display: "Sora", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --font-body: "Manrope", "Segoe UI", system-ui, -apple-system, sans-serif;
+
+  /* layout */
+  --container: 1200px;
+  --gutter: clamp(20px, 5vw, 40px);
+  --header-h: 72px;
+  --section-y: clamp(72px, 10vw, 128px);
+  --r-sm: 6px;
+  --r-md: 10px;
+  --r-lg: 14px;
+
+  /* ângulo das lâminas da logo */
+  --inclinacao: -24deg;
+}
